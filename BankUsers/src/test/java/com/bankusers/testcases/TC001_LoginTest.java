@@ -12,21 +12,29 @@ public class TC001_LoginTest extends BaseClass {
 public void LoginTest()
 {
 	driver.get(baseURL);
-	
+	logger.info("URL is opened");
+
 	LoginPageObject lp = new LoginPageObject(driver);
-	lp.setUserName(username);
+	
+	lp.setUserName(username); 
+	logger.info("Entered username");
+	
 	lp.setPassword(password);
+	logger.info("Entered password");
+	
 	lp.clickLogin();
 	
 	if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
 	{
 		Assert.assertTrue(true);
-		
+		logger.info("Login test passed");
+	
 	}
 	else
 	{
 	
 		Assert.assertTrue(false);
+		logger.info("Login test failed");
 		
 	}
 }
