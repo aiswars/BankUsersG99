@@ -11,7 +11,7 @@ public class TC001_LoginTest extends BaseClass {
 @Test
 public void LoginTest()
 {
-	driver.get(baseURL);
+	//driver.get(baseURL);
 	logger.info("URL is opened");
 
 	LoginPageObject lp = new LoginPageObject(driver);

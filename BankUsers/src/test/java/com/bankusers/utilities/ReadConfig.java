@@ -45,7 +45,7 @@ public class ReadConfig {
 	return chromepath;
 	}
 	
-	/*public String getIEPath()
+	public String getIEPath()
 	{
 	String iepath=pro.getProperty("iepath");
 	return iepath;
@@ -56,7 +56,7 @@ public class ReadConfig {
 	String firefoxpath=pro.getProperty("firefoxpath");
 	return firefoxpath;
 	}
-	*/
+	
 
 	
 	
