@@ -1,5 +1,7 @@
 package com.bankusers.testcases;
 
+import java.io.IOException;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -9,7 +11,7 @@ public class TC001_LoginTest extends BaseClass {
 
 	
 @Test
-public void LoginTest()
+public void LoginTest() throws IOException
 {
 	//driver.get(baseURL);
 	logger.info("URL is opened");
@@ -24,7 +26,8 @@ public void LoginTest()
 	
 	lp.clickLogin();
 	
-	if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+	//if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
+		if(driver.getTitle().equals("Guru99 Bank Manager HomePage - checking screenshots"))
 	{
 		Assert.assertTrue(true);
 		logger.info("Login test passed");
@@ -32,7 +35,7 @@ public void LoginTest()
 	}
 	else
 	{
-	
+		captureScreen(driver,"LoginTest");
 		Assert.assertTrue(false);
 		logger.info("Login test failed");
 		

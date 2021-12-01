@@ -1,0 +1,18 @@
+2021-12-01 00:00:06,335 - BankUsers -INFO - URL is opened
+2021-12-01 00:00:06,458 - BankUsers -INFO - Entered username
+2021-12-01 00:00:06,495 - BankUsers -INFO - Entered password
+2021-12-01 00:00:07,239 - BankUsers -INFO - teardown
+2021-12-01 00:03:59,150 - BankUsers -INFO - URL is opened
+2021-12-01 00:03:59,323 - BankUsers -INFO - Entered username
+2021-12-01 00:03:59,397 - BankUsers -INFO - Entered password
+2021-12-01 00:04:00,315 - BankUsers -INFO - Login test passed
+2021-12-01 00:04:00,320 - BankUsers -INFO - teardown
+2021-12-01 00:09:32,433 - BankUsers -INFO - URL is opened
+2021-12-01 00:09:32,555 - BankUsers -INFO - Entered username
+2021-12-01 00:09:32,629 - BankUsers -INFO - Entered password
+2021-12-01 00:09:32,975 - BankUsers -INFO - Login test passed
+2021-12-01 00:09:32,977 - BankUsers -INFO - teardown
+2021-12-01 12:28:24,204 - BankUsers -INFO - URL is opened
+2021-12-01 12:28:24,317 - BankUsers -INFO - Entered username
+2021-12-01 12:28:24,384 - BankUsers -INFO - Entered password
+2021-12-01 12:28:24,940 - BankUsers -INFO - teardown
