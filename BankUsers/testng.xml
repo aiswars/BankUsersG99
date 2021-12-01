@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="BankUsers">
+
+<listeners>
+		<listener class-name="com.bankusers.utilities.Reporting" />
+	</listeners>
+	
   <test thread-count="5" name="Test">
     <parameter name="browser" value="chrome"></parameter>
     <classes>

@@ -34,7 +34,7 @@ public class BaseClass {
 		//driver = new ChromeDriver();
 		
 		logger = Logger.getLogger("BankUsers");
-		PropertyConfigurator.configure("Log4j.properties");
+		PropertyConfigurator.configure("log4j.properties");
 		
 		if(br.equals("chrome"))
 		{
@@ -59,7 +59,8 @@ public class BaseClass {
 	public void tearDown()
 	{
 		logger.info("teardown");
-		System.out.println("in teardown methos");
+		
 		driver.quit();
+		System.out.println("in teardown method");
 	}
 }
