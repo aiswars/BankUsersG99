@@ -2,6 +2,7 @@ package com.bankusers.testcases;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
@@ -57,8 +58,10 @@ public class BaseClass {
 			System.setProperty("webdriver.ie.driver",readconfig.getIEPath());
 			driver = new InternetExplorerDriver();
 		}
-		driver.get(baseURL);
+		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 	
+		driver.get(baseURL);
+
 	}
 	
 	public void captureScreen(WebDriver driver, String tname) throws IOException {
@@ -67,6 +70,7 @@ public class BaseClass {
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot taken");
+		logger.info("Failed test Screenshot is taken");
 	}
 	
 	@AfterClass
