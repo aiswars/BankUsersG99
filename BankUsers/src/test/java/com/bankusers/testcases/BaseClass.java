@@ -30,8 +30,8 @@ public class BaseClass {
 	public void setup(String br)
 	{
 		//System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
-		driver = new ChromeDriver();
+		//System.setProperty("webdriver.chrome.driver",readconfig.getChromePath());
+		//driver = new ChromeDriver();
 		
 		logger = Logger.getLogger("BankUsers");
 		PropertyConfigurator.configure("Log4j.properties");

@@ -32,7 +32,7 @@ public class LoginPageObject {
 	
 	public void setPassword(String pwd) 
 	{
-		txtUserName.sendKeys(pwd);
+		txtPassword.sendKeys(pwd);
 	}
 	
 	public void clickLogin()
