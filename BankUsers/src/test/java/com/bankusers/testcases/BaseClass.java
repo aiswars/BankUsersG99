@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.RandomStringUtils;
+import org.apache.commons.lang3.RandomStringUtils; //mavendependency in pom.xml
 import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.openqa.selenium.OutputType;
@@ -69,7 +69,7 @@ public class BaseClass {
 		File source = ts.getScreenshotAs(OutputType.FILE);
 		File target = new File(System.getProperty("user.dir") + "/Screenshots/" + tname + ".png");
 		FileUtils.copyFile(source, target);
-		System.out.println("Failed test!!!captureScreen!!!!!    Screenshot taken");
+		System.out.println("Failed test!!! captureScreen!!!!!    Screenshot taken");
 	}
 	
 	

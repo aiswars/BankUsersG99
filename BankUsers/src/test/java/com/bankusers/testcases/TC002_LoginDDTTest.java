@@ -18,25 +18,25 @@ public class TC002_LoginDDTTest extends BaseClass {
 	{
 		LoginPageObject lp=new LoginPageObject(driver);
 		lp.setUserName(user);
-		logger.info("user name provided");
+		logger.info("loginDDT: user name provided");
 		lp.setPassword(pwd);
-		logger.info("password provided");
+		logger.info("loginDDT: password provided");
 		lp.clickLogin();
 		
 		Thread.sleep(3000);
 		
 		if(isAlertPresent()==true)
 		{
-			logger.info("Login failed");
+			logger.info("loginDDT: Login failed");
 			driver.switchTo().alert().accept();//close alert
 			driver.switchTo().defaultContent();
 			Assert.assertTrue(false);
-			logger.warn("Login failed");
+			logger.warn("loginDDT: Login failed");
 		}
 		else
 		{
 			Assert.assertTrue(true);
-			logger.info("Login passed");
+			logger.info("loginDDT: Login passed");
 			lp.clickLogout();
 			Thread.sleep(3000);
 			driver.switchTo().alert().accept();//close logout alert

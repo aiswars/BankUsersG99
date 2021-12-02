@@ -27,7 +27,7 @@ public class TC003_AddCustomerTest extends BaseClass
 
 		addcust.clickAddNewCustomer();
 
-		logger.info("addNewCustomer: Providing Customer Details!!");
+		logger.info("addNewCustomer: providing customer details....");
 
 		addcust.custName("Capatina");
 		addcust.custgender("male");

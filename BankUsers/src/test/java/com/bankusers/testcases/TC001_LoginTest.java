@@ -14,30 +14,32 @@ public class TC001_LoginTest extends BaseClass {
 public void LoginTest() throws IOException
 {
 	//driver.get(baseURL);
-	logger.info("URL is opened");
+	logger.info("LoginTest: URL is opened");
 
 	LoginPageObject lp = new LoginPageObject(driver);
 	
 	lp.setUserName(username); 
-	logger.info("Entered username");
+	logger.info("LoginTest: Entered username");
 	
 	lp.setPassword(password);
-	logger.info("Entered password");
+	logger.info("LoginTest: Entered password");
 	
 	lp.clickLogin();
 	
-	//if(driver.getTitle().equals("Guru99 Bank Manager HomePage"))
-		if(driver.getTitle().equals("Guru99 Bank Manager HomePage - checking screenshots"))
+	//check getTitle()
+	if(driver.getTitle().equals(" Welcome To Manager's Page of Guru99 Bank"))
+	//if(driver.getTitle().equals(" failing title to check screenshots"))
 	{
 		Assert.assertTrue(true);
-		logger.info("Login test passed");
+		logger.info("LoginTest: LoginTest Title passed"); 
 	
-	}
+	} 
 	else
 	{
 		captureScreen(driver,"LoginTest");
 		Assert.assertTrue(false);
-		logger.info("Login test failed");
+		logger.info("LoginTest: LoginTest Title failed");
+		System.out.println("LoginTest: LoginTest Title failed");
 		
 	}
 }
