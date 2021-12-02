@@ -12,8 +12,7 @@
 
 			<!--    <class name="com.bankusers.testcases.TC001_LoginTest"/>   -->
 			<!--   <class name="com.bankusers.testcases.TC002_LoginDDTTest" />   -->
-			<class name="com.bankusers.testcases.TC001_LoginTest"/>
-		    <class name="com.bankusers.testcases.TC002_LoginDDTTest" />
+	
 			<class name="com.bankusers.testcases.TC003_AddCustomerTest" />
 
 		</classes>
