@@ -16,3 +16,69 @@
 2021-12-01 12:28:24,317 [main] INFO BankUsers - Entered username
 2021-12-01 12:28:24,384 [main] INFO BankUsers - Entered password
 2021-12-01 12:28:24,940 [main] INFO BankUsers - teardown
+2021-12-01 14:37:40,295 [main] INFO BankUsers - teardown
+2021-12-01 14:40:04,299 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:04,355 [main] INFO BankUsers - password provided
+2021-12-01 14:40:07,600 [main] INFO BankUsers - Login failed
+2021-12-01 14:40:07,911 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:07,952 [main] INFO BankUsers - password provided
+2021-12-01 14:40:11,112 [main] INFO BankUsers - Login failed
+2021-12-01 14:40:11,535 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:11,576 [main] INFO BankUsers - password provided
+2021-12-01 14:40:14,745 [main] INFO BankUsers - Login failed
+2021-12-01 14:40:15,133 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:15,176 [main] INFO BankUsers - password provided
+2021-12-01 14:40:18,756 [main] INFO BankUsers - Login passed
+2021-12-01 14:40:22,337 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:22,380 [main] INFO BankUsers - password provided
+2021-12-01 14:40:25,536 [main] INFO BankUsers - Login failed
+2021-12-01 14:40:25,851 [main] INFO BankUsers - user name provided
+2021-12-01 14:40:25,890 [main] INFO BankUsers - password provided
+2021-12-01 14:40:29,245 [main] INFO BankUsers - Login passed
+2021-12-01 14:40:32,933 [main] INFO BankUsers - teardown
+2021-12-01 21:08:13,046 [main] INFO ebanking - LoginTest: URL is opened
+2021-12-01 21:08:13,178 [main] INFO ebanking - LoginTest: Entered username
+2021-12-01 21:08:13,261 [main] INFO ebanking - LoginTest: Entered password
+2021-12-01 21:08:20,922 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:20,997 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:08:24,187 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:08:24,524 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:24,577 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:08:27,745 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:08:28,669 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:28,723 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:08:31,952 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:08:32,321 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:32,428 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:08:35,866 [main] INFO ebanking - loginDDT: Login passed
+2021-12-01 21:08:39,446 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:39,546 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:08:42,756 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:08:43,135 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:08:43,187 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:16,600 [main] INFO ebanking - LoginTest: URL is opened
+2021-12-01 21:10:16,738 [main] INFO ebanking - LoginTest: Entered username
+2021-12-01 21:10:16,822 [main] INFO ebanking - LoginTest: Entered password
+2021-12-01 21:10:21,007 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:21,091 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:24,309 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:10:25,164 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:25,217 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:28,384 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:10:29,198 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:29,317 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:32,491 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:10:33,299 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:33,349 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:36,868 [main] INFO ebanking - loginDDT: Login passed
+2021-12-01 21:10:40,937 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:41,101 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:44,341 [main] INFO ebanking - loginDDT: Login failed
+2021-12-01 21:10:44,986 [main] INFO ebanking - loginDDT: user name provided
+2021-12-01 21:10:45,034 [main] INFO ebanking - loginDDT: password provided
+2021-12-01 21:10:48,406 [main] INFO ebanking - loginDDT: Login passed
+2021-12-01 21:10:54,082 [main] INFO ebanking - addNewCustomer: UserName is provided
+2021-12-01 21:10:54,152 [main] INFO ebanking - addNewCustomer: Passsword is provided
+2021-12-01 21:10:57,712 [main] INFO ebanking - addNewCustomer: providing customer details....
+2021-12-01 21:11:06,711 [main] INFO ebanking - addNewCustomer: validation started!!
+2021-12-01 21:11:06,742 [main] INFO ebanking - addNewCustomer: Test case Passed!!
